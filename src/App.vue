@@ -11,6 +11,13 @@
 <style lang="scss">
 body {
   margin: initial;
+  font-size: 1rem !important;
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #app {
