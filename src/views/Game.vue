@@ -131,7 +131,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 #game {
   display: grid;
   grid-template-rows: 2fr 5fr 3fr;

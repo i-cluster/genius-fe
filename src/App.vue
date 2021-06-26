@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/play">Play</router-link>
+      <!-- <router-link to="/">Home</router-link> -->
+      
     </div>
     <router-view/>
   </div>
@@ -34,20 +34,20 @@ body {
   }
 }
 
-#nav {
-  height: 5%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  align-content: center;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+// #nav {
+//   height: 5%;
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr;
+//   justify-items: center;
+//   align-content: center;
+// }
+// 
+// #nav a {
+//   font-weight: bold;
+//   color: #2c3e50;
+// }
+// 
+// #nav a.router-link-exact-active {
+//   color: #42b983;
+// }
 </style>
